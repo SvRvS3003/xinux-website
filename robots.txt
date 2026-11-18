@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://xinux.uz
+Sitemap: https://xinux.uz/sitemap.xml

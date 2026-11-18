@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[45121,["/xinux-website/_next/static/chunks/32f0415afb7cc028.js","/xinux-website/_next/static/chunks/98b5c2689541471e.js","/xinux-website/_next/static/chunks/81f0f13d25d49d65.js","/xinux-website/_next/static/chunks/851ed4b96294a79c.js","/xinux-website/_next/static/chunks/110f269c70293a94.js","/xinux-website/_next/static/chunks/2bbe6c930c511e33.js"],"default"]
+3:I[60512,["/xinux-website/_next/static/chunks/32f0415afb7cc028.js","/xinux-website/_next/static/chunks/98b5c2689541471e.js","/xinux-website/_next/static/chunks/81f0f13d25d49d65.js","/xinux-website/_next/static/chunks/851ed4b96294a79c.js","/xinux-website/_next/static/chunks/110f269c70293a94.js","/xinux-website/_next/static/chunks/2bbe6c930c511e33.js"],"default"]
+0:{"buildId":"afQ9QGNHehKvKILbKKqZ8","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
