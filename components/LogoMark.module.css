@@ -1,0 +1,27 @@
+.animated polygon {
+  animation: assemble 1.4s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.animated .p1 { --dx: 0; --dy: -260px; animation-delay: 0.1s; }
+.animated .p2 { --dx: -240px; --dy: -120px; animation-delay: 0.3s; }
+.animated .p3 { --dx: 300px; --dy: 180px; animation-delay: 0.5s; }
+.animated .p4 { --dx: -300px; --dy: 180px; animation-delay: 0.7s; }
+
+@keyframes assemble {
+  from {
+    transform: translate(var(--dx), var(--dy)) rotate(14deg) scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animated polygon {
+    animation: none;
+  }
+}

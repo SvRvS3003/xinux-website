@@ -1,0 +1,38 @@
+.hero {
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+
+.heroVersion {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+html[class~="dark"] .heroVersion {
+  color: var(--neutral-light-high);
+}
+
+html[class~="light"] .heroVersion {
+  color: var(--neutral-dark-base);
+}
+
+.heroCodename {
+  color: var(--color-highlight);
+}
+
+.heroDate {
+  font-size: 1rem;
+  opacity: 0.5;
+  margin-top: 0.75rem;
+}
+
+.heroDescription {
+  max-width: 40rem;
+  margin: 1.25rem auto 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.75;
+}

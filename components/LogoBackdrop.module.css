@@ -1,0 +1,16 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.backdrop svg {
+  width: min(96vw, 160vh);
+  height: auto;
+  color: var(--xinux-brand);
+  opacity: 0.12;
+}
